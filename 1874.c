@@ -6,7 +6,7 @@ int main(void)
     printf("Enter year:\n");
     scanf("%d",&year);
 
-    if((!(year % 4 \)&&(year % 100 != 0)) ||!(year % 400 )){
+    if((!(year % 4 )&&(year % 100 != 0)) ||!(year % 400 )){
         printf("Yes\n");
     }else{
         printf("No\n");
